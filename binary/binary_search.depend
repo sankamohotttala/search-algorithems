@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1537858806 source:e:\university studies\4th semester\data structure and algorithms\labs\lab5\binary search\binary_search\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<windows.h>
+	<time.h>
+	"sorted_list.h"
+
+1537816041 e:\university studies\4th semester\data structure and algorithms\labs\lab5\binary search\binary_search\sorted_list.h
+
+1538925137 source:c:\users\divandya sm\desktop\lab 5 codes\binary\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<windows.h>
+	<time.h>
+	"sorted_list.h"
+
+1537896005 c:\users\divandya sm\desktop\lab 5 codes\binary\sorted_list.h
+
