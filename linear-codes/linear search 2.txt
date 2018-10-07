@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "list.h"
+int i;
+int found=10001;//this use of 10001 means we know that number is not inside the array 'list'
+		//if we didnt know that we cant use it 	
+		//we know in our array numbers are from 1-10000	
+int search(int a){
+    for(int n=0;n<10000;n++){
+        if(list[n]==a){
+            found=n;
+
+        }
+
+    }
+
+    return found;
+
+}
+
+void main()
+{
+
+    printf("Enter the number:");
+    scanf("%d",&i);
+
+
+    if(search(i)!=10001){
+        printf("The index of the number found:%d\n",found);
+    }
+        else{
+            printf("Number is not to be found in array");
+        }
+    }
+
+

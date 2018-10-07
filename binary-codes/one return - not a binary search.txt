@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "sorted_list.h"
+
+    int i;
+    int first_index=0;
+    int last_index=9999;
+    int change;
+
+int search(int a){
+    if(a>10){
+        printf("a>10 %d\n",a);
+        //return a+10000;
+    }
+    if(a>100){
+        printf("a>100 %d\n",a);
+        //return a-9;
+    }
+    if(a<10){
+        printf("a<10 %d\n",a);
+        //return a+1000000;
+    }
+
+return a+234;
+}
+
+int main()
+{
+
+while(1){
+    scanf("%d",&i);
+    //search(i);
+    printf("Number is found :Index is %d\n",search(i));
+
+}
+return 0;
+}

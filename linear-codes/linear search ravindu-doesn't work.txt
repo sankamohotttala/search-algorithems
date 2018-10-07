@@ -1,0 +1,43 @@
+
+
+/* this code works only for the first index*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "list.h"
+
+int i;
+int found;
+
+int search(int a)
+{
+    for(int n=0; n<10000; n++)
+  {
+        //printf("%d\n",list[0]);
+      if(list[n]==a)
+       {
+            found=n;
+            return found;
+        }
+      else
+        {
+            return -1;
+        }
+    }
+}
+
+
+int main()
+{    scanf("%d",&i);
+
+    if(search(i)!=(-1))
+    {
+        printf("The index of the number found:%d\n",found);
+    }
+
+else
+    {
+        printf("Number is not to be found in array");
+    }
+    return 0;
+}

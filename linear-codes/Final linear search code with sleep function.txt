@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+#include <time.h>
+#include "list.h"
+
+//in this code if we use scanf, a non integer value this goes in a infinite loop.
+//how to stop that?
+//use of sleep make the code timing measurable and doesn't affect
+// the code's basic structure.
+int i;
+int found;
+int n;
+
+int search(int a){
+    for( n=0;n<10000;n++){
+            Sleep(10);
+        if(list[n]==a){
+
+            break;
+        
+        }
+
+    }
+
+    return n;
+}
+
+void main()
+{
+
+
+    scanf("%d",&i);
+    clock_t start, end, total;
+start = clock();
+
+
+    if(search(i)==10000){
+            printf("Number is not to be found in array\n");
+
+    }
+        else{
+            printf("The index of the number found:%d\n",n);
+        }
+end = clock();
+float duration = (float)(end - start) / CLOCKS_PER_SEC;
+printf("Total time taken by CPU: %f\n", duration  );
+   printf("Exiting of the program...\n");
+
+}
