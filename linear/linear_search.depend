@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1537861723 source:e:\university studies\4th semester\data structure and algorithms\labs\lab5\linear\linear_search\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+	"list.h"
+
+1537496446 e:\university studies\4th semester\data structure and algorithms\labs\lab5\linear\linear_search\list.h
+
+1538920883 source:c:\users\divandya sm\desktop\lab 5 codes\linear\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1537496446 c:\users\divandya sm\desktop\lab 5 codes\linear\list.h
+
